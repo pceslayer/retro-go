@@ -19,7 +19,7 @@ jobs:
       uses: docker/build-push-action@v6
       with:
         context: .
-        tags: retro-go:CYD
+        tags: retro-go:latest
         cache-from: type=gha
         cache-to: type=gha,mode=max
         load: true
